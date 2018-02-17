@@ -8,6 +8,9 @@ class Life {
     setAlive(alive){
         this.alive = alive;
     }
+    isAlive(){
+        this.getAlive();
+    }
 };
 
 module.exports = Life;
